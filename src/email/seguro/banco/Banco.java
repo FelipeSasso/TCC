@@ -42,11 +42,4 @@ public class Banco extends SQLiteOpenHelper {
 				+ CertificadosRevogados.CERTIFICADO + " "
 				+ CertificadosRevogados.CERTIFICADO_tipo + ");");
 	}
-
-	@Override
-	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		// db.execSQL("DROP TABLE IF EXISTS " + ContasEmail.NOME_TABELA);
-		// onCreate(db);
-	}
-
 }
